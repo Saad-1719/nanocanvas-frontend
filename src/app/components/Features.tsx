@@ -60,7 +60,7 @@ export function FeaturesGrid() {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   return (
-    <section ref={ref} className="relative py-32 px-4">
+    <section ref={ref} className="relative  md:py-32 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <motion.div

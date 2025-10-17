@@ -24,13 +24,8 @@ export default function Home() {
 	}, []);
 	const beforeImage =
 		"https://i.imghippo.com/files/KpH8055Gzs.png";
-	// const beforeImage =
-	// 	"https://images.unsplash.com/photo-1742130847850-4284808ae5f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZW5jaWwlMjBza2V0Y2glMjBkcmF3aW5nfGVufDF8fHx8MTc2MDczMTE4OHww&ixlib=rb-4.1.0&q=80&w=1080";
 	const afterImage =
-		"https://i.imghippo.com/files/xRv1952ncU.png";
-	
-	// const afterImage =
-	// 	"https://images.unsplash.com/photo-1682446857262-9232e0c9c3c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwcGFpbnRpbmclMjBhcnR8ZW58MXx8fHwxNzYwNzMxMTg4fDA&ixlib=rb-4.1.0&q=80&w=1080";
+		"https://i.imghippo.com/files/AORH4864SY.png";
 	
 	const galleryImages = [
 		"https://images.unsplash.com/photo-1699568542323-ff98aca8ea6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGNvbG9yZnVsJTIwYXJ0fGVufDF8fHx8MTc2MDY4MjMyM3ww&ixlib=rb-4.1.0&q=80&w=1080",

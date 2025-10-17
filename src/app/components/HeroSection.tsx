@@ -12,7 +12,7 @@ interface HeroProps {
 
 export function Hero({ beforeImage, afterImage }: HeroProps) {
 	return (
-		<section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 py-20">
+		<section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 py-20  mt-9 md:mt-0">
 			{/* Animated Background Elements */}
 			<div className="absolute inset-0 -z-10">
 				<div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#A26BFF]/20 rounded-full blur-[128px] animate-pulse" />
@@ -121,7 +121,7 @@ export function Hero({ beforeImage, afterImage }: HeroProps) {
 					>
 						{/* Glass Panel Effect */}
 						<div className="absolute -inset-4 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-[2rem] border border-white/10" />
-						<div className="relative p-4">
+						<div className="relative p-1">
 							<BeforeAfterSlider
 								beforeImage={beforeImage}
 								afterImage={afterImage}
