@@ -1,6 +1,6 @@
 import React from "react";
 interface layout {
-	className: String;
+	className?: String;
 	children: React.ReactNode;
 }
 const Wrapper = ({ className, children }: layout) => {
