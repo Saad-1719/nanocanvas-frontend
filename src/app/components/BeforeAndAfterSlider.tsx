@@ -64,7 +64,7 @@ export function BeforeAfterSlider({
   return (
     <div
       ref={containerRef}
-      className="relative w-full aspect-[16/9] overflow-hidden rounded-3xl select-none cursor-col-resize"
+      className="relative w-full aspect-square overflow-hidden rounded-3xl select-none cursor-col-resize"
       onMouseDown={handleMouseDown}
       onTouchStart={handleMouseDown}
       role="slider"
@@ -96,7 +96,7 @@ export function BeforeAfterSlider({
         <img
           src={beforeImage}
           alt={beforeLabel}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-fit"
           draggable={false}
         />
         <div className="absolute top-6 left-6 px-4 py-2 rounded-full bg-[#A26BFF]/90 backdrop-blur-sm">
@@ -110,7 +110,7 @@ export function BeforeAfterSlider({
         style={{ left: `${sliderPosition}%` }}
       >
         {/* Slider Handle */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white shadow-2xl flex items-center justify-center">
+        <div className="absolute rotate-90 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white shadow-2xl flex items-center justify-center">
           <svg
             className="w-6 h-6 text-gray-800"
             fill="none"

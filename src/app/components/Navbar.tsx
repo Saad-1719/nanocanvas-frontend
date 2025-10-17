@@ -3,11 +3,13 @@ import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Button } from '@/components/ui/button';
 import { Sparkles, Menu, X } from 'lucide-react';
+import Link from 'next/link';
 
 const navLinks = [
+  { name: 'How it Works', href: '#howitworks' },
   { name: 'Features', href: '#features' },
   { name: 'Gallery', href: '#gallery' },
-  { name: 'Pricing', href: '#pricing' },
+//   { name: 'Pricing', href: '#pricing' },
   { name: 'FAQ', href: '#faq' },
 ];
 
@@ -60,14 +62,17 @@ export function Navigation() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <Button
+            {/* <Button
               variant="ghost"
               className="text-white/70 hover:text-white hover:bg-white/5"
             >
               Sign In
-            </Button>
+            </Button> */}
             <Button className="bg-gradient-to-r from-[#A26BFF] to-[#6EE7B7] hover:shadow-xl hover:shadow-[#A26BFF]/50 transition-all duration-300">
-              Get Started
+                          <Link href={"/canvas"}>
+                              
+                          Get Started
+                          </Link>
             </Button>
           </div>
 
