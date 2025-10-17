@@ -3,12 +3,12 @@ import { useInView } from 'motion/react';
 import { useRef } from 'react';
 import {
   Wand2,
-  Layers,
+//   Layers,
   Zap,
-  Cloud,
-  Users,
+//   Cloud,
+//   Users,
   Download,
-  Palette,
+//   Palette,
   MessageSquare,
 } from 'lucide-react';
 

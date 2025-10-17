@@ -1,4 +1,4 @@
-import { Sparkles, Twitter, Github, Instagram, Linkedin } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 
 const navigation = {
   product: [
